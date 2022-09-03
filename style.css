@@ -1,0 +1,43 @@
+body {
+  background-color: blueviolet;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: left;
+}
+label {
+  padding: 10px;
+  display: block;
+  font-size: 30px;
+}
+input {
+  width: 400px;
+  height: 20px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+button {
+  margin: 10px;
+  background-color: blueviolet;
+  width: 400px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
